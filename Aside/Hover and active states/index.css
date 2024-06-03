@@ -22,11 +22,6 @@ a{
     color: whitesmoke;
 }
 
-a:hover{
-    color: lightpink;
-    text-decoration: overline;
-}
-
 /* 
 Challenge:
 1. Add an active state pseudo 
@@ -35,6 +30,28 @@ Challenge:
    changes to a dark grey and the font 
    weight increases to bold.
  */
+
+ /* 
+
+L ink (a)
+o
+V isitted
+e
+H over
+A ctive
+t
+e
+
+ */
+
+a:visited{
+    color: darkkhaki;   
+}
+
+a:hover, a:focus{
+    color: lightpink;
+    text-decoration: overline;
+}
 
 a:active{
     color: darkgray;
