@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+/* typography */
+
+h1{    
+    margin: 0 20px 0 0;
+    padding: 20px;
+    border: 3px solid orange;
+    border-radius: 4.6px;
+    font-family: 'Creepster';
+    font-size: 34px;
+    letter-spacing: 2px;
+    color: orange;
+}
+
+a{
+    font-size: 23px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: lightpink;
+    text-decoration: overline;
+}
+
+/* 
+Challenge:
+1. Add an active state pseudo 
+   selector. Make it so that when a 
+   user clicks on the link, the color 
+   changes to a dark grey and the font 
+   weight increases to bold.
+ */
+
+a:active{
+    color: darkgray;
+    font-weight: bold;
+}
+
+/* layout */
+
+header{
+    background-color: darkmagenta;
+    padding: 25px;
+    border: 4px solid orange;
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo{
+    background-image: url('images/haunted-tree.png');
+    height: 145px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    
+.nav-bar{
+    margin-top: 20px; 
+    text-align: center;    
+}
+
+.nav-item{
+    margin: 0 10px;
+}

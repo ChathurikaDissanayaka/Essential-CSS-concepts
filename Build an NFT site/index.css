@@ -1,0 +1,50 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #2B283A;
+    margin: 0;
+}
+
+header{
+    background-color: #5F29A3;
+    padding: 45px 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #D0AAFF;
+    font-size: 20px;
+    margin: 0;
+}
+
+section{
+    padding: 45px 0;
+
+}
+
+.main-class{
+    width: 100%;
+}
+
+/* 
+Challenge:
+1. Add CSS so the text in the first section 
+   renders correctly. 
+⚠️ Watch out for the amount of white space 
+   you have between the start of the section 
+   and the h2.
+⚠️ Don't write too much code!
+*/
+
+
+
+
