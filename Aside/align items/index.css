@@ -22,6 +22,18 @@
     display: flex;
     justify-content: space-around;
     align-items: start; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; */
 }
 
 .item {
