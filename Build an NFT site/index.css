@@ -35,14 +35,6 @@ section{
     width: 100%;
 }
 
-/* 
-Challenge:
-1. Set the color of the link in the paragraph.
-2. Make the link color change on hover and 
-   active states.
-3. Search online to find out how you can give 
-   the underline a dotted appearance. 
-*/
 a{
     color: #ef5839;
     text-decoration: underline dotted;
