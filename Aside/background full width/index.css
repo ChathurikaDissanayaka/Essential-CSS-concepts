@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin: 0;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+h2{ 
+    margin-top: 0;
+    line-height: 17px;
+    color: whitesmoke;
+    letter-spacing: 1.1px;
+}
+
+ul{
+    color: whitesmoke;
+}
+
+header{
+    padding: 40px 0;
+    background-color: midnightblue;
+}
+
+/*
+Challenge:
+1. Set up a container selector.
+2. Give it a width of 600px.
+3. Align it centrally. 
+*/
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+section{
+    background-color: #dd6e42;
+    background-color: darkorchid;
+    padding: 40px 0;
+}
+
+img{
+    width: 200px;
+    border-top: 3px solid black;
+    border-radius: 4.6px;
+    align-self: center;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.tip-card{
+    border: 2px solid whitesmoke;
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 4.6px;
+}
+
+li{
+    line-height: 23px;
+    padding-bottom: 5px;
+}
