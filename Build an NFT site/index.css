@@ -10,6 +10,11 @@ header{
     padding: 45px 0;
 }
 
+section{
+    padding: 45px 0;
+
+}
+
 h1{
     color: whitesmoke;
     font-size: 36px;
@@ -26,15 +31,6 @@ h3{
     margin: 0;
 }
 
-section{
-    padding: 45px 0;
-
-}
-
-.main-class{
-    width: 100%;
-}
-
 a{
     color: #ef5839;
     text-decoration: underline dotted;
@@ -46,6 +42,15 @@ a:hover{
 
 a:active{
     color: #d4b44c;
+}
+
+.main-class{
+    width: 100%;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
 }
 
 
