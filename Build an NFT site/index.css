@@ -49,6 +49,11 @@ section{
     padding: 45px 0;
 }
 
+.section-2{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
 .container{
     width: 620px;
     margin: 0 auto;
@@ -58,16 +63,3 @@ section{
     width:100%;
 }
 
-.section-2{
-    background-color: #5f29a3;
-    color: whitesmoke;
-}
-
-/* 
-Challenge:
-1. Change the background color of this 
-   section, remembering to make sure 
-   the color covers 100% of the width.
-2. Change the font color for all text in 
-   this section.
-*/
