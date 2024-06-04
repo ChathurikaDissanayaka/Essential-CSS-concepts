@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-    margin: 0;
+    margin-top: 0;
 }
 
 h3{
@@ -63,3 +63,12 @@ section{
     width:100%;
 }
 
+.feature-img{
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.feature-img-container{
+    display: flex;
+    justify-content: space-between;
+}
