@@ -40,7 +40,7 @@ a:active{
 
 /* layout */
 
-header{
+header, .section-2{
     background-color: #5f29a3;
 }
 
@@ -56,7 +56,6 @@ footer{
 }
 
 .section-2{
-    background-color: #5f29a3;
     color: whitesmoke;
 }
 
