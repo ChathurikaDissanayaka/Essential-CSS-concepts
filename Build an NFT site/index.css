@@ -21,7 +21,8 @@ h3{
     font-size: 20px;
 }
 
-h1, h3{
+h1, 
+h3{
     margin:0;
 }
 
@@ -32,7 +33,8 @@ a{
     text-decoration: underline dotted; 
 }
 
-a:hover, a:active{
+a:hover, 
+a:active{
     color: #d4b44c;
 }
 
@@ -47,7 +49,9 @@ footer{
     color: #5f29a3;
 }
 
-header, section, footer{
+header, 
+section, 
+footer{
     padding: 45px 0;
 }
 
