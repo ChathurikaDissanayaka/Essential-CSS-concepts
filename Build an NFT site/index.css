@@ -26,6 +26,10 @@ h3{
     margin:0;
 }
 
+p{
+    line-height: 23px;
+}
+
 /* links */
 
 a{
