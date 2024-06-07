@@ -1,0 +1,16 @@
+html {
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 10px;   
+}
+
+img {
+    width: 300px
+}
+
+.container .title, .container .sub-title {
+    color: purple;
+}
+
+.sub-title {
+    color: darkgreen !important; 
+}
