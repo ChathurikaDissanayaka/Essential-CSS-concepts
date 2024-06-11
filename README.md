@@ -1,6 +1,6 @@
 # Essential-CSS-concepts
 
 <ul>
-  <li>NFT Site <a  href="">Link</a></li>
+  <li>NFT Site <a  href="https://nft-site-by-s4ch1.netlify.app/">Link</a></li>
 </ul>
 
