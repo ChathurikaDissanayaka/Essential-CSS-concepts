@@ -35,6 +35,7 @@ a{
     border: none;
     margin-top: 20px;
     text-decoration: none;
+    display: inline-block;
 } 
 
 .ad-container{
