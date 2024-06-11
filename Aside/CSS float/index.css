@@ -29,15 +29,16 @@ img {
     padding: 0.2em;
     border-radius: 10px;
     font-family: 'Rubik Doodle Shadow', system-ui;
+    float: left;
 } 
 
 .para-1 {
-    clear: both;
+    /* clear: both; */
 }
 
 .para-3 {
     border: 1px solid;
     padding: 10px;
-    
+    display: flow-root;
 }
 
