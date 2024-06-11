@@ -30,11 +30,19 @@ p{
     line-height: 23px;
 }
 
-.buy-nft,
-.more-info,
-.about-us,
-.contact
-{
+/* links */
+
+a{
+    color: #ef5839;
+    text-decoration: underline dotted; 
+}
+
+a:hover, 
+a:active{
+    color: #d4b44c;
+}
+
+.btn-link {
     padding: 10px 19px;
     text-decoration: none;
     border-radius: 4.6px;
@@ -65,20 +73,6 @@ p{
 .btn-link:active{
     background-color: #f3e885;
     color: #2b283a;
-}
-
-
-
-/* links */
-
-a{
-    color: #ef5839;
-    text-decoration: underline dotted; 
-}
-
-a:hover, 
-a:active{
-    color: #d4b44c;
 }
 
 /* layout */
