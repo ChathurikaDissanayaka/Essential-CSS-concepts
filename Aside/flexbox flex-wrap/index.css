@@ -5,6 +5,7 @@ html, body {
 
 .thumbnails {
     display: flex;
+    flex-wrap: wrap;
     max-width: 560px;
     margin: 50px auto;
 }
