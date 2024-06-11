@@ -39,6 +39,7 @@ p{
     text-decoration: none;
     border-radius: 4.6px;
     font-weight: 500;
+    display: inline-block;
 }
 
 .buy-nft{
