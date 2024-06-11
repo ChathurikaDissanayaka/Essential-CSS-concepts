@@ -24,7 +24,7 @@ Challenge:
 ⚠️ This will cause a layout issue!
  */
 
-button{
+a{
     padding: 10px 19px;
     border-radius: 4px;
     background-color: #fff200;
@@ -33,8 +33,9 @@ button{
     cursor: pointer;
     color: #1d1e22;
     border: none;
-    margin-top: 20px
-}
+    margin-top: 20px;
+    text-decoration: none;
+} 
 
 .ad-container{
     border: 1px solid darkgoldenrod;
