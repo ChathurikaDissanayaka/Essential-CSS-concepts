@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-family: roboto, Arial, Helvetica, sans-serif;
     font-size: 21px;
+    margin: 0;
 }
 
 h1{
@@ -31,11 +32,6 @@ a:focus {
     color: #131313;
 }
 
-.container{
-    width: 570px;
-    margin: 0 auto;
-}
-
 h1 span{
     font-size: 80px;
 }
@@ -48,6 +44,28 @@ h1 span,
 h2 span{
     font-weight: 900;
     display: block;
+}
+
+header,
+section{
+    padding: 100px 0;
+}
+
+.container{
+    width: 570px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #D7D7D7;
+}
+
+.introduction{
+    background-color: #FFEAEA;
+}
+
+.articles{
+    background-color: #EAF9FF;
 }
 
 .small{
