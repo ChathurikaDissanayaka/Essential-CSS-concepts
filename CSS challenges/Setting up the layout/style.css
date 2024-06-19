@@ -1,9 +1,31 @@
 body{
     text-align: center;
     font-family: roboto, Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
 
-.center-div{
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 42px;
+}
+
+h1, 
+h2{
+    font-weight: 300;
+}
+
+h3{
+    font-size: 36px;
+}
+
+.container{
     width: 570px;
     margin: 0 auto;
+}
+
+.small{
+    font-size: 16px;
 }
