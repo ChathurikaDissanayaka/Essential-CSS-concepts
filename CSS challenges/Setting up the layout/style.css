@@ -21,9 +21,33 @@ h3{
     font-size: 36px;
 }
 
+a{
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
 .container{
     width: 570px;
     margin: 0 auto;
+}
+
+h1 span{
+    font-size: 80px;
+}
+
+h2 span{
+    font-size: 60px;
+}
+
+h1 span,
+h2 span{
+    font-weight: 900;
+    display: block;
 }
 
 .small{
