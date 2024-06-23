@@ -56,16 +56,9 @@ section{
     margin: 0 auto;
 }
 
-header{
-    background-color: #D7D7D7;
-}
-
-.introduction{
-    background-color: #FFEAEA;
-}
-
-.articles{
-    background-color: #EAF9FF;
+.dark-background{
+    background-color: #252525;
+    color: #FFF;
 }
 
 .small{
