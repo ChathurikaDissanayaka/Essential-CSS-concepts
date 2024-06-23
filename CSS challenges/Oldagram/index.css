@@ -1,5 +1,106 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #C6C6C6;
+    font-family: "Source Sans 3", sans-serif;
 }
 
+header{
+    border-bottom: 1px solid #C6C6C6;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 375px;
+}
+
+.brand-logo{
+   width: 127px;
+   height: auto;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+
+.user-avatar,
+.sp{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-avatar{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.sp{
+    margin-right: 10px;
+}
+
+.user{
+    display: flex;
+    padding: 12px;
+}
+
+.username{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.location{
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.portrait{
+    width: 375px;
+    height: 375px;
+}
+
+.likes,
+.name{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.likes,
+.caption{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.caption{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 105px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.icons img{
+    width: 25px;
+    height: auto;
+}
+
+.icons img:hover{
+    width: 26px;
+}
