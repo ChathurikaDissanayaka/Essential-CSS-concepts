@@ -11,6 +11,10 @@ h1{
 
 h2{
     font-size: 42px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h1, 
@@ -44,7 +48,6 @@ h2 span{
 
 h1 span,
 h2 span{
-    font-weight: 900;
     display: block;
 }
 
@@ -86,4 +89,17 @@ section{
 .small{
     font-size: 16px;
     margin-top: 5px;
+}
+
+.articles .btn:hover,
+.articles .btn:active{
+    background-color: #FFF;
+    color: #252525;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
 }
