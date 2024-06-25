@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #282828;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    background-color: #282828;
+} 
+
+ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 25px;
+    color: whitesmoke;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon{
+    width: 25px;
+    height: auto;
+}
+
+.item-img{
+    width: 100%;
+}
+
+.caption{
+    margin: 0 25px;
+}
