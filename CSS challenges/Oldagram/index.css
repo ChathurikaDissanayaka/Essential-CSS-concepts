@@ -9,6 +9,7 @@ header{
     border-bottom: 1px solid #C6C6C6;
     background-color: #fff;
     margin: 0 auto;
+    margin-top: 20px;
     width: 375px;
     height: 67px;
     display: flex;
@@ -22,10 +23,21 @@ header{
     width: 375px;
 }
 
+.size-12{
+    font-size: 12px;
+}
+
+.brand-logo, 
+.likes,
+.caption,
+.icons{
+    margin-left: 10px;
+}
+
+
 .brand-logo{
    width: 127px;
    height: auto;
-   margin-left: 10px;
    margin-bottom: 10px;
 }
 
@@ -34,15 +46,11 @@ header{
     width: 34px;
     height: 34px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .user-avatar{
-    margin-right: 10px;
     margin-top: 15px;
-}
-
-.sp{
-    margin-right: 10px;
 }
 
 .user{
@@ -51,7 +59,6 @@ header{
 }
 
 .username{
-    font-size: 12px;
     font-weight: bold;
     margin-top: 2px;
     margin-bottom: 0;
@@ -70,7 +77,6 @@ header{
 
 .likes,
 .name{
-    font-size: 12px;
     font-weight: bold;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -78,12 +84,10 @@ header{
 
 .likes,
 .caption{
-    margin-left: 10px;
     margin-right: 10px;
 }
 
 .caption{
-    font-size: 12px;
     padding-bottom: 10px;
 }
 
@@ -91,7 +95,6 @@ header{
     display: flex;
     justify-content: space-between;
     width: 105px;
-    margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 12px;
 }
