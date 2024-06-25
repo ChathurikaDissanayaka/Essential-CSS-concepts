@@ -105,5 +105,5 @@ header{
 }
 
 .icons img:hover{
-    width: 26px;
+    opacity: 0.7;
 }
