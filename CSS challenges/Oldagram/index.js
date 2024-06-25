@@ -29,7 +29,6 @@ const posts = [
 ]
 
 let mainEl = document.querySelector("main")
-let portrait = document.querySelector("portrait")
 
 function generatePosts(){
     for(let i=0; i < posts.length; i++){
@@ -56,3 +55,4 @@ function generatePosts(){
 }
 
 generatePosts()
+
