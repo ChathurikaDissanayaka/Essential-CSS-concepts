@@ -25,6 +25,10 @@ h1{
     margin: 30px 25px;
 }
 
+.align-right{
+    margin-left: auto;
+}
+
 .logo{
     font-size: 18px;
     font-weight: 700;

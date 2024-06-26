@@ -13,7 +13,6 @@ header{
     width: 375px;
     height: 67px;
     display: flex;
-    justify-content: space-between;
 }
 
 .container{
@@ -51,6 +50,7 @@ header{
 
 .user-avatar{
     margin-top: 15px;
+    margin-left: auto;
 }
 
 .user{
