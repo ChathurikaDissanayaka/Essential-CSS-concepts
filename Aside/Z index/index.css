@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2em auto;
+    width: 232px;
+    position: relative;
+    height: 332px;
+    /* background-color: deeppink; */
+}
+
+img {
+    width: 150px;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 1px #999;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.card:hover {
+    z-index: 1;
+}
+
+.card-1 {
+    left: 0; 
+    top: 0;
+}
+.card-2 {
+    left: 15px; 
+    top: 25px;
+}
+.card-3 {
+    left: 30px; 
+    top: 50px;
+}
+.card-4 {
+    left: 45px; 
+    top: 75px;
+}
+.card-5 {
+    left: 60px; 
+    top: 100px;
+}
+.card-6 {
+    left: 75px; 
+    top: 125px;
+}
+
+
+
