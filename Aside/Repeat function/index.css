@@ -1,0 +1,22 @@
+html, body {
+    margin: 1em;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat(4, 1fr);
+    /* repeat(how many times, what to repeat) */
+    border: 2px solid black;
+}
+
+.grid-item {
+    background-color: skyblue;
+    padding: .2em;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: 1px solid #999;
+    }  
+    
